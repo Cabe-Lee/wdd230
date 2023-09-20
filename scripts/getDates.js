@@ -1,5 +1,6 @@
-var currentYear = new Date().getFullYear();
-console.log(currentYear);
-// document.getElementById('copyright').innerHTML = currentYear
-// stuck in getting the funtcions to work.
-let oLastModif = new Date(document.lastModified);
+document.querySelector('#lastModified').textContent = "Last Modification: "+document.lastModified;
+
+const rightNow = new Date();
+//console.log(rightNow);
+//console.log(rightNow.getFullYear());
+document.querySelector('#year').textContent = rightNow.getFullYear();
