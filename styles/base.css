@@ -62,10 +62,11 @@ nav {
     text-decoration: none;
     color: #FFFFFF;
 }
-.hline {
+.hr {
     width:100%;
     height: 1px;
-    background: #000;
+    background-color: #000;
+    border: none;
   }
 .card {
     text-align: left;
