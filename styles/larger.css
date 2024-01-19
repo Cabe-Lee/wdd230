@@ -1,0 +1,12 @@
+@media (max-width:500px) {
+    nav {
+        display:grid;
+        grid-template-columns: auto;
+    }
+}
+@media (max-width:800px) {
+    .content {
+        display:grid;
+        grid-template-columns: auto;
+    }
+}

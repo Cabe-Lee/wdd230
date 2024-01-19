@@ -1,9 +1,8 @@
 window.onload = function(){
 
     let year = new Date().getFullYear();
-    const copyText = ("Ⓒ - Cabe Lee - CA, USA");
 
-    document.getElementById("copyright").innerHTML = copyText +' - ' + year;
+    document.getElementById("copyright").innerHTML = year + " ";
 
     const date = new Date(document.lastModified);
     document.getElementById("lastModified").innerHTML = date;
