@@ -13,7 +13,6 @@ h2 {
     color: grey;
     font-size: 20px;
     margin: 30px 0px 0px;
-
 }
 img {
     width:100px;
@@ -45,6 +44,9 @@ nav a {
 nav a:visited {
     color: yellow;
 }
+section {
+    max-width: 600px;
+}
 h3 {
     color: #FFFFFF;
     text-align: center;
@@ -52,7 +54,6 @@ h3 {
     margin:0px;
     background-color:#265a85;
     padding:30px;
-
 }
 .content {
     display:grid;
