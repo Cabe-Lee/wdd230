@@ -1,11 +1,8 @@
-@media (max-width:500px) {
-    nav {
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
 @media (max-width:800px) {
-    .content {
+    nav a {
+        display: none;
+    }
+    main {
         display: grid;
         grid-template-columns: auto;
     }

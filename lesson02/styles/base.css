@@ -7,13 +7,6 @@ header {
     color: white;
     background-color:#265a85;
 }
-nav {
-    display:grid;
-    grid-template-columns: auto auto auto auto auto;
-    width: auto;
-    background-color:black;
-    text-align: center;
-}
 a:hover {
     background-color:grey;
 }
@@ -24,8 +17,13 @@ nav a {
     font-size: 20px;
 }
 main {
-    display:grid;
+    display: flex;
     grid-template-columns: auto auto auto;
+    align-items: stretch;
+}
+img {
+    width: 400px;
+    align-items: center;
 }
 footer {
     display: flex;
