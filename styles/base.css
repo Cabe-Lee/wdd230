@@ -28,9 +28,8 @@ footer {
 }
 nav {
     display: flex;
-    
     background-color:black;
-    text-align: center;
+    justify-content: space-between;
 }
 nav a:hover {
     background-color:grey;
@@ -38,10 +37,8 @@ nav a:hover {
 nav a {
     text-decoration: none;
     color: #FFFFFF;
-    padding:20px;
+    padding: 20px;
     font-size: 20px;
-    display:block;
-    flex: 1 1 100;
 }
 nav a:visited {
     color: yellow;
@@ -87,6 +84,8 @@ main {
 ol li {
     list-style-type: none;
 }
-ol a:visited {
-    color: #0e86e7;
+.map {
+    display: grid;
+    margin: auto;
+    padding: 50px;
 }
