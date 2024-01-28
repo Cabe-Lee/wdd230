@@ -1,56 +1,71 @@
 * {
     padding: 10px;
     margin: auto;
+    font-family: "roboto", Times, serif;
 }
 header {
     margin: 20px;
     border: 2px solid grey;
     border-radius: 8px;
     box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+    background-color: #8ba6a9;
 }
 .purpose {
     margin: 20px;
     border: 2px solid grey;
     border-radius: 8px;
     box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+    background-color: #8ba6a9;
 }
 .scenarios {
     margin: 20px;
     border: 2px solid grey;
     border-radius: 8px;
     box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+    background-color: #8ba6a9;
 }
 .color {
     margin: 20px;
     border: 2px solid grey;
     border-radius: 8px;
     box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+    background-color: black;
+}
+.color h3 {
+    color: white;
+}
+.blue {
+    background-color: #a7cecb;
+}
+.gray {
+    background-color: #8ba6a9;
+}
+.green {
+    color: white;
+    background-color: #75704e;
+}
+.sage {
+    background-color: #cacc90 ;
+}
+.lemon {
+    background-color: #f4ebbe;
 }
 .font {
+    font-family: "roboto", Times, serif;
     margin: 20px;
     border: 2px solid grey;
     border-radius: 8px;
     box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+    background-color: #8ba6a9;
 }
 .wireframe {
     margin: 20px;
     border: 2px solid grey;
     border-radius: 8px;
     box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+    background-color: #8ba6a9;
 }
 img {
     width: 850px;
         height: auto;
-}
-@media (max-width: 1000px){
-    img {
-        width: 600px;
-        height: auto;
-    }
-}
-@media (max-width: 500px){
-    img {
-        width: 240px;
-        height: auto;
-    }
 }
