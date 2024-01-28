@@ -1,8 +1,56 @@
 * {
     padding: 10px;
+    margin: auto;
 }
 header {
-    display: flex;
-    justify-content: center;
-    background-color: #a7cecb;
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+}
+.purpose {
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+}
+.scenarios {
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+}
+.color {
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+}
+.font {
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+}
+.wireframe {
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
+}
+img {
+    width: 850px;
+        height: auto;
+}
+@media (max-width: 1000px){
+    img {
+        width: 600px;
+        height: auto;
+    }
+}
+@media (max-width: 500px){
+    img {
+        width: 240px;
+        height: auto;
+    }
 }
