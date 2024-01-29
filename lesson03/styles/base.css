@@ -29,26 +29,7 @@ header {
     border: 2px solid grey;
     border-radius: 8px;
     box-shadow: 4px 12px 12px 4px rgba(0, 0, 0, 0.4), 0 16px 16px 0 rgba(0, 0, 0, 0.39);
-    background-color: black;
-}
-.color-scheme h3 {
-    color: white;
-}
-.blue {
-    background-color: #a7cecb;
-}
-.gray {
     background-color: #8ba6a9;
-}
-.green {
-    color: white;
-    background-color: #75704e;
-}
-.sage {
-    background-color: #cacc90 ;
-}
-.lemon {
-    background-color: #f4ebbe;
 }
 .typography {
     font-family: "roboto", Times, serif;
