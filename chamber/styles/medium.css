@@ -8,17 +8,13 @@
         width: 15px;
     }
     #menu {
-        margin-right: 10px;
+        margin: 10px;
+    }
+    .banner {
+        display:block;
     }
     .navigation {
-        position: absolute;
         background-color: #fff;
-        z-index: 1;
-        top: 109px;
-        left: 70%;
-    }
-    .navigation a {
-        float: left;
     }
     .hero_card img {
         width: 300px;

@@ -9,10 +9,13 @@
 #menu::before {
     content: "≡";
 }
+.banner {
+    display:flex;
+    align-items:center;
+    background-color:#f4ebbe;
+}
 .navigation {
     list-style: none;
-    margin: 0 auto;
-    max-width: 420px;
 }
 .navigation li {
     display: none;
@@ -20,7 +23,7 @@
 .navigation a {
     display: block;
     padding: 0.75rem;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
     color: #75704e;
     font-weight: 700;
@@ -40,7 +43,6 @@
 }
 header {
     display:flex;
-    background-color: #f4ebbe;
     align-items: center;
 }
 .logo {
@@ -50,11 +52,10 @@ header {
     border-radius: 20px;
 }
 ul {
-    list-style: none;
+    padding:0px;
 }
 nav {
     color: #75704e;
-    
 }
 nav a {
     color: black;
@@ -95,8 +96,6 @@ header .fa {
     color: white;
 }
 
-
-
 .hero_card {
     background-color: #a7cecb;
     display: block;
@@ -128,9 +127,14 @@ header .fa {
 .chamber_button:hover {
     background-color: #75704e;
 }
+.chamber {
+    margin:8px;
+}
 
-
-
+h1 {
+    position: relative;
+    padding-right: 10%;
+}
 h2{
     text-decoration: underline;
     text-underline-position: under;
