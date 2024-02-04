@@ -14,10 +14,9 @@
     .navigation {
         position: absolute;
         background-color: #fff;
-        padding-left: auto;
         z-index: 1;
-        top: 118px;
-        left: 80%;
+        top: 109px;
+        left: 70%;
     }
     .navigation a {
         float: left;
@@ -44,31 +43,5 @@
     }
     .logo_info {
         left: 0%;
-    }
-}
-
-
-
-
-@media (min-width: 760px) {
-    .navigation {
-        display: flex;
-    }
-    .navigation li {
-        position: relative;
-        display: block;
-        flex: 1 1 100%;
-        float: right;
-    }
-    .navigation a {
-        text-align: center;
-    }
-    #menu {
-        display:none;
-    }
-    
-
-    .logo_info {
-        left: 10%;
     }
 }

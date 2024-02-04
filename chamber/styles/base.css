@@ -1,5 +1,4 @@
 * {
-    font-family: 'roboto', 'Times New Roman', Times, serif;
     box-sizing:border;
 }
 #menu {
@@ -61,17 +60,22 @@ nav {
     
 }
 nav a {
-    color: white;
-    display:flex;
+    color: black;
+    
+}
+nav a:visited {
+    color: black;
 }
 a:active {
-    color: #f4ebbe;
+    color: white;
     background-color: #75704e;
 }
 a:hover {
     color: #f4ebbe;
     background-color: #8ba6a9;
-    max-width: auto;
+}
+a:visited {
+    color: white;
 }
 header .fa {
     padding: 10px;
@@ -160,6 +164,11 @@ h3 {
 .event {
     width: 60%;
 }
+.event a {
+    background-color: #75704e;
+    padding: 1px;
+    border-radius: 3px;
+}
 
 
 
@@ -171,8 +180,12 @@ h3 {
     position: relative;
     left: 20%;
 }
+.w_stats {
+    
+}
+
 .w_content {
-    position: relative;
+    left: 10px;
 }
 
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +11,7 @@
         <link href="styles/base.css" rel="stylesheet" >
         <link href="styles/medium.css" rel="stylesheet" >
         <link href="styles/larger.css" rel="stylesheet" >
+        <link href="styles/normalize.css" rel="stylesheet" >
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
         <meta name="author" content="Cabe-Lee" >
         <meta property="og:title" content="Carlsbad Chamber of Commerce - Home" >
@@ -38,14 +39,13 @@
             </nav>
 
         </header>
-        
         <main>
             <section class="hero_card">
                 <img src="images/carlsbadCove.jpg" alt="hero_img">
                 <h3><a class="chamber_button" href="">Join the Chamber</a></h3>
             </section>
-            <section class="top_cards_row">
-                <section class="cards">
+            <div class="top_cards_row">
+                <div class="cards">
                     <section class="event">
                         <h2>Event</h2>
                         <h3>Content - </h3>
@@ -55,66 +55,66 @@
                     <section class="weather">
                         <h2>Weather</h2>
                         <p class="w_icon">🌤️</p>
-                        <section class="w_content">
-                            <p>Content: </p>
-                            <p>Content: </p>
-                        </section>
+                        <div class="w_content">
+                            <p>Content:</p>
+                            <p>Content:</p>
+                        </div>
                         <section class="w_stats">
-                            <p> 35%</p>
-                            <h5> BOB</h5>
+                            <p>35%</p>
+                            <h5>BOB</h5>
                         </section>
                     </section>
-                </section>
-            </section>
-            <section class="spotlights_row">
+                </div>
+            </div>
+            <div class="spotlights_row">
                 <section class="spot_card">
                     <h3>EMOJI Thankful Company</h3>
                     <p class="quote">"quote"</p>
-                    <section class="card_text">
+                    <div class="card_text">
                         <p>mail</p>
                         <p>number</p>
                         <a href="">site</a>
-                    </section>
-                </section>
-                <section class="spot_card">
-                    <h3>EMOJI Thankful Company</h3>
-                    <p class="quote">"quote"</p>
-                    <section class="card_text">
-                        <p>mail</p>
-                        <p>number</p>
-                        <a href="">site</a>
-                    </section>
+                    </div>
                 </section>
                 <section class="spot_card">
                     <h3>EMOJI Thankful Company</h3>
                     <p class="quote">"quote"</p>
-                    <section class="card_text">
+                    <div class="card_text">
                         <p>mail</p>
                         <p>number</p>
                         <a href="">site</a>
-                    </section>
+                    </div>
                 </section>
-            </section>
+                <section class="spot_card">
+                    <h3>EMOJI Thankful Company</h3>
+                    <p class="quote">"quote"</p>
+                    <div class="card_text">
+                        <p>mail</p>
+                        <p>number</p>
+                        <a href="">site</a>
+                    </div>
+                </section>
+            </div>
         </main>
         <footer>
-            <section class="bottom_tab">
-                <section class="logo_brand">
+            <div class="bottom_tab">
+                <div class="logo_brand">
                     <img src="images/logo.jpg" alt="home_icon_footer">
                     <section class="logo_text">
                         <h4>Carlsbad</h4>
                         <h4>Chamber of Commerce</h4>
                         <h5>address</h5>
                     </section>
-                </section>
-                <section class="logo_info">
+                </div>
+                <div class="logo_info">
                     <p>email</p>
                     <p>number</p>
                     <p>📌Location Map</p>
-                </section>
-            </section>
-            <section class="web_info">
+                </div>
+            </div>
+            <div class="web_info">
                 <p>&copy;<span id="year"></span> | Cabe Trenton Lee | WDD 230 Project | Last Updated: <span id="date"></span> <span id="hour"></span></p>
-            </section>
+            </div>
         </footer>
         <script src="scripts/hb_menu.js"></script>
         <script src="scripts/getdate.js"></script>
