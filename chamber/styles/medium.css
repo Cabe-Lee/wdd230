@@ -1,0 +1,74 @@
+@media (max-width: 760px){
+    header .fa-facebook {
+        font-size: 15px;
+        width: 15px;
+    }
+    header .fa-twitter {
+        font-size: 15px;
+        width: 15px;
+    }
+    #menu {
+        position: absolute;
+        right: 20px;
+    }
+    .navigation {
+        position: absolute;
+        background-color: #fff;
+        padding-left: auto;
+        z-index: 1;
+        top: 118px;
+        left: 80%;
+    }
+    .navigation a {
+        float: left;
+    }
+    .hero_card img {
+        width: 300px;
+    }
+    .chamber_button {
+        top: 40%;
+        left: 50%;
+    }
+    .cards {
+        display: block;
+    }
+    .event {
+        width: auto;
+    }
+    .weather {
+        width: auto;
+    }
+    .spotlights_row {
+        display: block;
+        margin-bottom: 100px;
+    }
+    .logo_info {
+        left: 0%;
+    }
+}
+
+
+
+
+@media (min-width: 760px) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        position: relative;
+        display: block;
+        flex: 1 1 100%;
+        float: right;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    #menu {
+        display:none;
+    }
+    
+
+    .logo_info {
+        left: 10%;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Carlsbad Chamber of Commerce</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon-chamber-of-commerce.ico">
+        <meta name="description"
+            content="WDD 230: Web Frontend Development - Chamber site" >
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" >
+        <link href="styles/base.css" rel="stylesheet" >
+        <link href="styles/medium.css" rel="stylesheet" >
+        <link href="styles/larger.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+        <meta name="author" content="Cabe-Lee" >
+        <meta property="og:title" content="Carlsbad Chamber of Commerce - Home" >
+        <meta property="og:type" content="website" >
+        <meta property="og:url" content="" >
+        <meta property="og:image" content="https://www.sandiego.org/explore/things-to-do/beaches-bays/carlsbad.aspx" >
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="images/logo.jpg" alt="logo">
+            <section class="chamber">
+                <h2>Carlsbad</h2>
+                <h4>Chamber of Commerce</h4>
+            </section>
+            <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter"></a>
+            <button id="menu"></button>
+            <nav>
+                <ul class="navigation">
+                <li><a href="https://cabe-lee.github.io/wdd230/">Home</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+            </nav>
+
+        </header>
+        
+        <main>
+            <section class="hero_card">
+                <img src="images/carlsbadCove.jpg" alt="hero_img">
+                <h3><a class="chamber_button" href="">Join the Chamber</a></h3>
+            </section>
+            <section class="top_cards_row">
+                <section class="cards">
+                    <section class="event">
+                        <h2>Event</h2>
+                        <h3>Content - </h3>
+                        <p>blah blah blah</p>
+                        <a href="">more info ...</a>
+                    </section>
+                    <section class="weather">
+                        <h2>Weather</h2>
+                        <p class="w_icon">🌤️</p>
+                        <section class="w_content">
+                            <p>Content: </p>
+                            <p>Content: </p>
+                        </section>
+                        <section class="w_stats">
+                            <p> 35%</p>
+                            <h5> BOB</h5>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="spotlights_row">
+                <section class="spot_card">
+                    <h3>EMOJI Thankful Company</h3>
+                    <p class="quote">"quote"</p>
+                    <section class="card_text">
+                        <p>mail</p>
+                        <p>number</p>
+                        <a href="">site</a>
+                    </section>
+                </section>
+                <section class="spot_card">
+                    <h3>EMOJI Thankful Company</h3>
+                    <p class="quote">"quote"</p>
+                    <section class="card_text">
+                        <p>mail</p>
+                        <p>number</p>
+                        <a href="">site</a>
+                    </section>
+                </section>
+                <section class="spot_card">
+                    <h3>EMOJI Thankful Company</h3>
+                    <p class="quote">"quote"</p>
+                    <section class="card_text">
+                        <p>mail</p>
+                        <p>number</p>
+                        <a href="">site</a>
+                    </section>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <section class="bottom_tab">
+                <section class="logo_brand">
+                    <img src="images/logo.jpg" alt="home_icon_footer">
+                    <section class="logo_text">
+                        <h4>Carlsbad</h4>
+                        <h4>Chamber of Commerce</h4>
+                        <h5>address</h5>
+                    </section>
+                </section>
+                <section class="logo_info">
+                    <p>email</p>
+                    <p>number</p>
+                    <p>📌Location Map</p>
+                </section>
+            </section>
+            <section class="web_info">
+                <p>&copy;<span id="year"></span> | Cabe Trenton Lee | WDD 230 Project | Last Updated: <span id="date"></span> <span id="hour"></span></p>
+            </section>
+        </footer>
+        <script src="scripts/hb_menu.js"></script>
+        <script src="scripts/getdate.js"></script>
+    </body>
+</html>
