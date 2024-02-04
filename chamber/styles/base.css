@@ -177,12 +177,13 @@ h3 {
     position: relative;
     left: 20%;
 }
-.w_stats {
-
+.w_stats, .w_content {
+    box-sizing: border-box;
+    display: flex;
+    padding-left:30px;
 }
-
-.w_content {
-    left: 10px;
+.line {
+    color: #3b589800;
 }
 
 
