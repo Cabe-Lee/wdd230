@@ -180,7 +180,7 @@ h3 {
 .w_stats, .w_content {
     box-sizing: border-box;
     display: flex;
-    padding-left:30px;
+    padding-left: 20%;
 }
 .line {
     color: #3b589800;

@@ -3,9 +3,7 @@
         display: flex;
     }
     .navigation li {
-        position: relative;
         display: block;
-        left: 90px;
     }
     #menu {
         display:none;
