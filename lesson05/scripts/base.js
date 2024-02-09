@@ -4,7 +4,7 @@ const list = document.querySelector( "#list" );
 
 
 
-button.addEventListener("click", () => {
+button.addEventListener( "click", () => {
     if (input.value != "") {
         const li = document.createElement( "li" );
         const deleteButton = document.createElement( "button" );
@@ -12,7 +12,7 @@ button.addEventListener("click", () => {
         deleteButton.textContent = "❌";
         list.append(deleteButton);
         list.append(li);
-        deleteButton.addEventListener("click", function () {
+        deleteButton.addEventListener( "click", function () {
             list.removeChild(li);
             list.removeChild(deleteButton);
             input.focus();
@@ -21,14 +21,3 @@ button.addEventListener("click", () => {
         input.value = "";
     };
 });
-
-
-
-
-
-
-
-
-
-
-

@@ -36,6 +36,9 @@
         display: block;
         margin-bottom: 100px;
     }
+    .spot_card {
+        width: auto;
+    }
     .logo_info {
         left: 0%;
     }
