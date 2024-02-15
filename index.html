@@ -6,16 +6,15 @@
         <title>Cabe Lee - WDD 230 - Web Frontend Development</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <meta name="description"
-            content="WDD 230 - Web Frontend Development - Cabe Lee - course assignment portal" >
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" >
-        <link href="styles/normalize.css" rel="stylesheet" >
-        <link href="styles/base.css" rel="stylesheet" >
-        <link href="styles/larger.css" rel="stylesheet" >
-        <meta name="author" content="Cabe-Lee" >
+            content="WDD 230 - Web Frontend Development - Cabe Lee - course assignment portal">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link href="styles/base.css" rel="stylesheet">
+        <link href="styles/larger.css" rel="stylesheet">
+        <meta name="author" content="Cabe-Lee">
     </head>
     <body>
         <header>
-            <img src="images/profile_picture.png" alt="cabe-and-kazjana">
+            <img src="images/profile_picture.webp" srcset="" alt="cabe-and-kazjana">
             <h1>Cabe T. Lee</h1>
         </header>
         <button id="menu"></button>
@@ -26,38 +25,49 @@
             <a href="https://www.byui.edu/">BYU Idaho</a>
             <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
         </nav>
-        <h2>WDD 230: Web Frontend Development</h2>
-        <hr>
-        <main> 
-         <section class="cards">
-                <h3>Learning Activities</h3>
-                <ol>
-                    <li>Week 01: <a href="index.html">Layout</a></li>
-                    <li>Week 02: <a href="lesson02/design-principles.html">Design</a></li>
-                    <li>Week 03: <a href="lesson03/w03_comb.png">Combinators</a> | <a href="https://codepen.io/Cabe-Lee/pen/xxBPbWN">Pseudo-Element</a> | <a href="https://codepen.io/Cabe-Lee/pen/XWGzJxO">Responsive Menu</a></li>
-                    <li>Week 04: <a href="https://cabe-lee.github.io/wdd230//chamber/index.html">Chamber</a></li>
-                    <li>Week 05: <a href="https://cabe-lee.github.io/wdd230/lesson05/bom.html">B.O.M.</a></li>
-                    <li>Week 06: <a href="lesson06/"></a></li>
-                    <li>Week 07: <a href="lesson07/"></a></li>
-                    <li>Week 08: <a href="lesson08/"></a></li>
-                    <li>Week 09: <a href="lesson09/"></a></li>                        
-                    <li>Week 10: <a href="lesson010/"></a></li>
-                </ol>
-        </section>
-        <section class="cards">
-            <h3>Information</h3>
-            <ol>
-                <li> Vista, California</li>
-                <li> Weather: 72 Sunny</li>
-                <li> Page Visits: 1</li>
-            </ol>
-        </section>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/san_diego_temple_small.webp" media="max-width: 400px">
+                    <img src="images/san_diego_temple_middle.webp" width="960" height="300" alt="Temple">
+                </picture>
+                <div class="herolabel">
+                    <h1 class="temple_text">San Diego Temple</h1>
+                </div>
+            </div>
+            <h2>WDD 230: Web Frontend Development</h2>
+            <hr>
+            <div class="cards_row">
+                <section class="cards activities">
+                    <h3>Learning Activities</h3>
+                    <ol>
+                        <li>Week 01: <a href="index.html">Layout</a></li>
+                        <li>Week 02: <a href="lesson02/design-principles.html">Design</a></li>
+                        <li>Week 03: <a href="lesson03/w03_comb.png">Combinators</a> | <a href="https://codepen.io/Cabe-Lee/pen/xxBPbWN">Pseudo-Element</a> | <a href="https://codepen.io/Cabe-Lee/pen/XWGzJxO">Responsive Menu</a></li>
+                        <li>Week 04: <a href="https://cabe-lee.github.io/wdd230//chamber/index.html">Chamber</a></li>
+                        <li>Week 05: <a href="https://cabe-lee.github.io/wdd230/lesson05/bom.html">B.O.M.</a></li>
+                        <li>Week 06: <a href="https://cabe-lee.github.io/wdd230/lesson06/images/landscape.webp">landscape.webp</a></li>
+                        <li>Week 07: <a href="lesson07/"></a></li>
+                        <li>Week 08: <a href="lesson08/"></a></li>
+                        <li>Week 09: <a href="lesson09/"></a></li>                        
+                        <li>Week 10: <a href="lesson10/"></a></li>
+                    </ol>
+                </section>
+                <section class="cards info">
+                    <h3>Information</h3>
+                    <ol>
+                        <li> Vista, California</li>
+                        <li> Weather: 72 Sunny</li>
+                        <li> Page Visits: 1</li>
+                    </ol>
+                </section>
+            </div>
         </main>
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.0355519633617!2d-117.25964602315244!3d33.213164173484635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc76b7e141db11%3A0x753a388e11a074ca!2s629%20Amarra%20Ln%2C%20Vista%2C%20CA%2092083!5e0!3m2!1sen!2sus!4v1706222476945!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <footer>
             <p>&copy;<span id="year"></span> | Cabe T. Lee | USA, California | Last Updated: <span id="date"></span> <span id="hour"></span></p>
         </footer>
-        <script src="scripts/getdate.js"></script>
-        <script src="scripts/hb_menu.js"></script>
+        <script rel="preload" src="scripts/getdate.js"></script>
+        <script rel="preload" src="scripts/hb_menu.js"></script>
     </body>
 </html>

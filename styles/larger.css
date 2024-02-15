@@ -13,4 +13,10 @@
     .map {
         max-width: 320px;  
     }
+    #menu {
+        display: grid;
+    }
+    .cards_row {
+        display: block;
+    }
 }
