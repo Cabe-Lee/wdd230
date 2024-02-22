@@ -1,0 +1,36 @@
+@media (max-width: 760px){
+    header .fa-facebook {
+        font-size: 15px;
+        width: 15px;
+    }
+    header .fa-twitter {
+        font-size: 15px;
+        width: 15px;
+    }
+    #menu {
+        margin: 10px;
+    }
+    .banner {
+        display:block;
+    }
+    .navigation {
+        background-color: #fff;
+    }
+    
+
+
+    .sidebar {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #time {
+        width: auto;
+    }
+
+
+
+    .logo_info {
+        left: 0%;
+    }
+}
