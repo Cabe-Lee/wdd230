@@ -76,7 +76,6 @@ h3 {
 
 
 .hero {
-	
 	position: relative;
 	border: 1px solid rgba(0,0,0,.1);
 	height: 300px;
@@ -119,7 +118,6 @@ h3 {
     width: 100%;
 }
 .activities {
-    
     position: relative;
     left: 0px;
 }
@@ -131,7 +129,7 @@ ol li {
     list-style-type: none;
 }
 .map {
-    display: grid;
+    display: flex;
     margin: auto;
     padding: 50px;
 }
