@@ -131,5 +131,6 @@ ol li {
 .map {
     display: flex;
     margin: auto;
+    border: 0;
     padding: 50px;
 }
