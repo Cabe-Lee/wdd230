@@ -143,12 +143,14 @@ h3 {
 }
 .card {
     display: block;
-    margin: 5%;
-    padding-top: 1%;
-    padding-left: 10%;
+    margin-top: 5%;
+    padding-top: 10%;
+    padding: 10px;
+    margin-bottom: 10%;
     border: 1px solid grey;
     background-color: #8ba6a9;
-    width: 300px;
+    width: 275px;
+    text-align: center;
 }
 .right-sidetab {
     border: 2px solid grey;
