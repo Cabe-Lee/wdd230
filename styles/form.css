@@ -19,22 +19,31 @@ label {
 input {
     display: block;
 }
-
 #rangevalues {
 	display: flex;
 	margin: 0 0 0 0px;
 	width: 200px;
 }
-
 option {
     margin-left: .5px;
 }
-
 #submitBtn {
     color: var(--red);
     background-color: var(--beige);
     border-radius: 4px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#text {
+    width: 300px;
+    padding: 2px 2px;
+    padding-left: 20px;
+    background-color: var(--beige);
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
 }
