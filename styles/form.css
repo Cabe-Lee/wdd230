@@ -1,3 +1,6 @@
+:root {
+    color: black;
+}
 fieldset {
     width: 300px;
     background-color:azure;
@@ -5,6 +8,9 @@ fieldset {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+fieldset {
+    color: black;
 }
 #username {
     margin-top: 20px;
@@ -24,7 +30,6 @@ input {
 
 option {
     margin-left: .5px;
-    margin-bottom: 10px;
 }
 
 #submitBtn {
@@ -33,4 +38,7 @@ option {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+#submetBtn:root {
+    color: black;
 }
