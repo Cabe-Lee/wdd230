@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development - Cabe Lee - form">
+    <meta property="og:title" content="Home Page" >
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://cabe-lee.github.io/wdd230/">
+        <meta property="og:image" content="https://churchofjesuschristtemples.org/san-diego-california-temple/">
+        <link href="styles/form.css" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet">
+        <meta name="author" content="Cabe-Lee">
+</head>
+<body>
+    <header>
+    </header>
+    <div id="formmessage"></div>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Sign Up</legend>
+                <p>Required*</p>
+                <label id="username">Username*<input type="text" name="username" required></label>
+                <label>Password*<input type="password" id="keyphrase" name="password" required pattern=".{8}" title="Eight or more characters"></label>
+                <label>Confirm*<input type="password" id="keyphrase2" name="passwordRepeated" required ></label>
+                <label>Email*<input type="email" id="email" name="email" required></label>
+                <label for="r">Rate of 10<input id="r" type="range" name="r" value="0" min="1" max="10" step="1" list="rangevalues"></label>
+                <datalist id="rangevalues">
+	                <option value="1">1</option>
+	                <option value="2">2</option>
+	                <option value="3">3</option>
+	                <option value="4">4</option>
+	                <option value="5">5</option>
+                    <option value="6">6</option>
+	                <option value="7">7</option>
+	                <option value="8">8</option>
+	                <option value="9">9</option>
+	                <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input id="submitBtn" type="submit" value="Sign Up">
+        </form>
+    </main>
+    <footer>
+    </footer>
+    <script src="scripts/keyphrase.js"></script>
+</body>
+</html>
