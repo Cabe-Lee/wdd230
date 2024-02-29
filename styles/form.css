@@ -1,16 +1,14 @@
 :root {
-    color: black;
+    --azure: azure;
+    --beige: beige;
+    --red: red;
 }
 fieldset {
     width: 300px;
-    background-color:azure;
-
+    background-color: var(--azure);
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-}
-fieldset {
-    color: black;
 }
 #username {
     margin-top: 20px;
@@ -33,12 +31,10 @@ option {
 }
 
 #submitBtn {
-    background-color: beige;
+    color: var(--red);
+    background-color: var(--beige);
     border-radius: 4px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-}
-#submetBtn:root {
-    color: black;
 }
