@@ -26,7 +26,7 @@
                 <label id="username">Username*<input type="text" name="username" required></label>
                 <label>Password*<input type="password" id="keyphrase" name="password" required pattern=".{8}" title="Eight or more characters"></label>
                 <label>Confirm*<input type="password" id="keyphrase2" name="passwordRepeated" required ></label>
-                <label>Email*<input type="email" id="email" name="email" required></label>
+                <label>Email* "@byu.edu"<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
                 <label for="r">Rate of 10<input id="r" type="range" name="r" value="0" min="1" max="10" step="1" list="rangevalues"></label>
                 <datalist id="rangevalues">
 	                <option value="1">1</option>
