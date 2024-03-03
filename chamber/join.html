@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chamber of Commerce</title>
+        <link rel="icon" href="images/favicon-chamber-of-commerce.ico">
+        <meta name="description"
+            content="WDD 230 - Web Frontend Development - Cabe Lee - Chamber Home Page" >
+        <link href="styles/base.css" rel="stylesheet" >
+        <link href="styles/medium.css" rel="stylesheet" >
+        <link href="styles/larger.css" rel="stylesheet" >
+        <link href="styles/normalize.css" rel="stylesheet" >
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+        <meta name="author" content="Cabe-Lee" >
+        <meta property="og:title" content="Carlsbad Chamber of Commerce - Home" >
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://cabe-lee.github.io/wdd230//chamber/index.html" >
+        <meta property="og:image" content="https://www.sandiego.org/explore/things-to-do/beaches-bays/carlsbad.aspx" >
+    </head>
+    <body>
+        <div class="banner">
+            <header>
+                <img class="logo" src="images/logo.webp" alt="logo">
+                <section class="chamber">
+                    <h1>Carlsbad Chamber of Commerce</h1>
+                </section>
+                <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook align-right"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter align-right"></a>
+                <button id="menu"></button>
+                <button onclick="myFunction()" id="dark-mode-button">◑</button>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="https://cabe-lee.github.io/wdd230/chamber/index.html">Home</a></li>
+                    <li><a href="https://cabe-lee.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="https://cabe-lee.github.io/wdd230/chamber/join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+           <form>
+                <div id="memberCards">
+                    <fieldset method="get" action="thankyou.html">
+                        <label>First name*<input type="text" name="firstN" id="firstN" required></label>
+                        <label>Last name*<input type="text" name="lastN" id="lastN" required></label>
+                        <label>Title or position*<input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}" title="Please enter at least seven characters using only letters, hyphens, and spaces." required></label>
+                        <label>Email* "johndoe@gmail.com"<input type="email" name="email" id="email" required></label>
+                        <label>Mobile phone number*<input type="tel" name="tel" id="tel" required></label>
+                        <label>Business / organization's name*<input type="text" name="business" id="business" required></label>
+                        <div>Membership level</div>
+                        <label class="member"><input type="checkbox" name="np" id="np" required>Non Profit Membership</label>
+                        <label class="member"><input type="checkbox" name="bronze" id="bronze">Bronze Membership</label>
+                        <label class="member"><input type="checkbox" name="silver" id="silver" required>Silver Membership</label>
+                        <label class="member"><input type="checkbox" name="gold" id="gold" required>Gold Membership</label>
+                        <label >Description<input type="text" name="description" id="description"></label>
+                        <input type="hidden" name="hidden date" id="date">
+                    </fieldset>
+                    <div class="benefits">
+                        <h3>Membership Benefits</h3>
+                        <h4>NP Membership (Non Profit)</h4>
+                        <p class="memberText"><h4>Purpose:</h4> Designed for non-profit organizations.</p>
+                        <p class="memberText"><h4>Fee:</h4> No cost.</p>
+                        <h4>Benefits:</h4>
+                        <ul class="points">
+                            <li>Advocacy for NP role.</li>
+                            <li>Access to free or discounted CE activities.</li>
+                            <li>Exclusive discounts.</li>
+                            <li>Free NP journal subscriptions.</li>
+                        </ul>
+                        <h4>Bronze Membership</h4>
+                        <h4>Benefits:</h4>
+                        <ul class="points">
+                            <li>Streamlined travel.</li>
+                            <li>Collect Avios on flights.</li>
+                            <li>Business class check-in.</li>
+                            <li>Free seat selection.</li>
+                        </ul>
+                        <h4>Silver Membership</h4>
+                        <h4>Benefits:</h4>
+                        <ul class="points">
+                            <li>80% bonus on Avios.</li>
+                            <li>Room upgrades.</li>
+                            <li>Daily food/beverage credit.</li>
+                            <li>Milestone bonuses.</li>
+                        </ul>
+                        <h4>Gold Membership</h4>
+                        <h4>Benefits:</h4>
+                        <ul class="points">
+                            <li>80% bonus on Avios.</li>
+                            <li>Room upgrades.</li>
+                            <li>Priority services.</li>
+                            <li>Fifth night free on reward stays.</li>
+                        </ul>
+                    </div>
+                </div>
+                <input id="submitBtn" type="submit" value="Join the Chamber">
+           </form>
+        </main>
+        <footer>
+            <div class="bottom_tab">
+                <div class="logo_brand">
+                    <img src="images/logo.webp" alt="home_icon_footer">
+                    <section class="logo_text">
+                        <h4>Carlsbad</h4>
+                        <h4>Chamber of Commerce</h4>
+                        <h5>5934 Priestly Dr, Carlsbad, CA 92008</h5>
+                    </section>
+                </div>
+                <div class="logo_info">
+                    <p>cabetlee@gmail.com</p>
+                    <p>503-438-8006</p>
+                    <p>📌Location Map</p>
+                </div>
+            </div>
+            <div class="web_info">
+                <p>&copy;<span id="year"></span> | Cabe Trenton Lee | WDD 230 Project | Last Updated: <span id="date"></span> <span id="hour"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/hb_menu.js"></script>
+        <script src="scripts/getdate.js"></script>
+        <script src="scripts/darkmode.js"></script>
+    </body>
+</html>

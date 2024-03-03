@@ -241,6 +241,45 @@ h3 {
 
 
 
+#memberCards {
+    display: flex;
+    margin-right: 20%;
+}
+fieldset {
+    margin-top: 30px;
+    background-color: #a7cecb;
+    width: 300px;
+    height: 500px;
+}
+#submitBtn {
+    background-color: #f4ebbe;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submitBtn, fieldset {
+    margin-left: auto;
+    margin-right: auto;
+}
+label, input {
+    display: block;
+}
+.member {
+    display: flex;
+}
+
+.benefits {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    width: 300px;
+    background-color: #8ba6a9;
+}
+
+
+
+
 footer {
     background-color: #f4ebbe;
 }
