@@ -40,9 +40,9 @@
             </nav>
         </div>
         <main>
-           <form>
+           <form method="get" action="thankyou.html">
                 <div id="memberCards">
-                    <fieldset method="get" action="thankyou.html">
+                    <fieldset>
                         <label>First name*<input type="text" name="firstN" id="firstN" required></label>
                         <label>Last name*<input type="text" name="lastN" id="lastN" required></label>
                         <label>Title or position*<input type="text" name="title" id="title" pattern="[A-Za-z\- ]{7,}" title="Please enter at least seven characters using only letters, hyphens, and spaces." required></label>
@@ -50,12 +50,12 @@
                         <label>Mobile phone number*<input type="tel" name="tel" id="tel" required></label>
                         <label>Business / organization's name*<input type="text" name="business" id="business" required></label>
                         <div>Membership level</div>
-                        <label class="member"><input type="checkbox" name="np" id="np" required>Non Profit Membership</label>
-                        <label class="member"><input type="checkbox" name="bronze" id="bronze">Bronze Membership</label>
-                        <label class="member"><input type="checkbox" name="silver" id="silver" required>Silver Membership</label>
-                        <label class="member"><input type="checkbox" name="gold" id="gold" required>Gold Membership</label>
+                        <label class="member cursor"><input type="checkbox" name="np" id="np">Non Profit Membership</label>
+                        <label class="member cursor"><input type="checkbox" name="bronze" id="bronze">Bronze Membership</label>
+                        <label class="member cursor"><input type="checkbox" name="silver" id="silver">Silver Membership</label>
+                        <label class="member cursor"><input type="checkbox" name="gold" id="gold">Gold Membership</label>
                         <label >Description<input type="text" name="description" id="description"></label>
-                        <input type="hidden" name="hidden date" id="date">
+                        <input type="hidden" name="hidden date" id="hidden">
                     </fieldset>
                     <div class="benefits">
                         <h3>Membership Benefits</h3>

@@ -241,33 +241,26 @@ h3 {
 
 
 
-#memberCards {
-    display: flex;
-    margin-right: 20%;
-}
 fieldset {
     margin-top: 30px;
     background-color: #a7cecb;
-    width: 300px;
-    height: 500px;
-}
-#submitBtn {
-    background-color: #f4ebbe;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#submitBtn, fieldset {
-    margin-left: auto;
-    margin-right: auto;
+    width: 210px;
+    height: 460px;
 }
 label, input {
     display: block;
 }
+.cursor {
+    cursor: pointer;
+}
+#memberCards {
+    display: flex;
+    margin-right: 20%;
+}
 .member {
     display: flex;
+    padding: 0.50rem;
 }
-
 .benefits {
     margin-top: 30px;
     padding-top: 10px;
@@ -277,6 +270,45 @@ label, input {
     background-color: #8ba6a9;
 }
 
+#submitBtn {
+    background-color: #f4ebbe;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submitBtn, fieldset {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#thanks {
+    background-color: #a7cecb;
+    width: 50%;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+@media (max-width: 426px) {
+    #memberCards {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .benefits {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
 
 
 
