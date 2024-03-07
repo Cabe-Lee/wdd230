@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chamber Discover</title>
+        <link rel="icon" href="images/favicon-chamber-of-commerce.ico">
+        <meta name="description"
+            content="WDD 230 - Web Frontend Development - Cabe Lee - Chamber Discover Page" >
+        <link href="styles/base.css" rel="stylesheet" >
+        <link href="styles/medium.css" rel="stylesheet" >
+        <link href="styles/larger.css" rel="stylesheet" >
+        <link href="styles/normalize.css" rel="stylesheet" >
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+        <meta name="author" content="Cabe-Lee" >
+        <meta property="og:title" content="Carlsbad Chamber of Commerce - Home" >
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://cabe-lee.github.io/wdd230//chamber/index.html" >
+        <meta property="og:image" content="https://www.sandiego.org/explore/things-to-do/beaches-bays/carlsbad.aspx" >
+    </head>
+    <body>
+        <div class="banner">
+            <header>
+                <img class="logo" src="images/logo.webp" alt="logo">
+                <section class="chamber">
+                    <h1>Carlsbad Chamber of Commerce</h1>
+                </section>
+                <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook align-right"></a>
+                <a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter align-right"></a>
+                <button id="menu"></button>
+                <button onclick="myFunction()" id="dark-mode-button">◑</button>
+            </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="https://cabe-lee.github.io/wdd230/chamber/index.html">Home</a></li>
+                    <li><a href="">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="left-sidebar">
+                <div class="card">
+                    <h3>Events</h3>
+
+                </div>
+                <div class="card">
+                    <h3>Attractions</h3>
+                </div>
+                <div class="card">
+                    <h3>Calendar</h3>
+                </div>
+            </div>
+            <div class="right-sidetab">
+                <picture>
+                    <img src="" alt="" loading="lazy">
+
+                </picture>
+            </div>
+        </main>
+        <footer>
+            <div class="bottom_tab">
+                <div class="logo_brand">
+                    <img src="images/logo.webp" alt="home_icon_footer">
+                    <section class="logo_text">
+                        <h4>Carlsbad</h4>
+                        <h4>Chamber of Commerce</h4>
+                        <h5>5934 Priestly Dr, Carlsbad, CA 92008</h5>
+                    </section>
+                </div>
+                <div class="logo_info">
+                    <p>cabetlee@gmail.com</p>
+                    <p>503-438-8006</p>
+                    <p>📌Location Map</p>
+                </div>
+            </div>
+            <div class="web_info">
+                <p>&copy;<span id="year"></span> | Cabe Trenton Lee | WDD 230 Project | Last Updated: <span id="date"></span> <span id="hour"></span></p>
+            </div>
+        </footer>
+        <script src="scripts/hb_menu.js"></script>
+        <script src="scripts/getdate.js"></script>
+        <script src="scripts/darkmode.js"></script>
+        <script src="scripts/windchill.js"></script>
+    </body>
+</html>
