@@ -1,0 +1,9 @@
+@media (max-width: 500px) {
+    header {
+        background-color: black;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
