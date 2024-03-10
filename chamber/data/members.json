@@ -25,7 +25,7 @@
             "address": "1821 University Dr Space #120, Vista, CA 92083",
             "number": "(760) 659-5351",
             "url": "https://oldnavy.gap.com/",
-            "title": "site",
+            "title": "Shop",
             "image": "images/old-navy.webp",
             "membership": "Bronze Membership",
             "stars": "4.1 / 5"
@@ -35,7 +35,7 @@
             "address": "1751 University Dr, Vista, CA 92083",
             "number": "(760) 941-0220",
             "url": "https://www.target.com/",
-            "title": "site",
+            "title": "Shop",
             "image": "images/target.webp",
             "membership": "Gold Membership",
             "stars": "4.2 / 5"
@@ -45,7 +45,7 @@
             "address": "3838 Vista Way, Oceanside, CA 92056",
             "number": "(760) 941-5990",
             "url": "https://www.homedepot.com/",
-            "title": "site",
+            "title": "Shop",
             "image": "images/home-depot.webp",
             "membership": "Silver Membership",
             "stars": "4.2 / 5"
@@ -55,7 +55,7 @@
             "address": "263 S Coast Hwy, Oceanside, CA 92054",
             "number": "(760) 231-1431",
             "url": "https://www.acehardware.com/",
-            "title": "site",
+            "title": "Shop",
             "image": "images/ace-hardware.webp",
             "membership": "Bronze Membership",
             "stars": "4.5 / 5"
@@ -65,7 +65,7 @@
             "address": "9645 Scranton Rd #100, San Diego, CA 92121",
             "number": "1-800-345-7669",
             "url": "https://www.playstation.com/en-us/",
-            "title": "site",
+            "title": "Shop",
             "image": "images/sony.webp",
             "membership": "Gold Membership",
             "stars": "4.7 / 5"

@@ -322,6 +322,26 @@ label, input {
     padding: 10px;
     margin: 50px;
 }
+#members img {
+    width: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#members a {
+    color: #f4ebbe;
+    background-color: #3B5998;
+    padding: 5px;
+    border-radius: 5px;
+}
+#members a:hover {
+    color:#75704e;
+    background-color: #55ACEE;
+}
+#members a:active {
+    color: #55ACEE;
+    background-color: #75704e;
+}
+
 
 
 footer {
