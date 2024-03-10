@@ -10,17 +10,6 @@ async function getLinks() {
 };
 getLinks();
 
-let div = document.createElement("div");
-
-
-let title = "Bob is great."
-let url = "https://google.com"
-
-a.href = url;
-a.textContent = title;
-        
-div.appendChild(a);
-
 
 function displayMembers(members) {
     members.forEach((member) => {
