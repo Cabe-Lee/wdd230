@@ -16,7 +16,7 @@
             "number": "(760) 945-7995",
             "url": "https://www.walmart.com/",
             "title": "Shop",
-            "image": "",
+            "image": "images/walmart.webp",
             "membership": "Silver Membership",
             "stars": "4.0 / 5"
         },
@@ -26,7 +26,7 @@
             "number": "(760) 659-5351",
             "url": "https://oldnavy.gap.com/",
             "title": "site",
-            "image": "",
+            "image": "images/old-navy.webp",
             "membership": "Bronze Membership",
             "stars": "4.1 / 5"
         },
@@ -36,7 +36,7 @@
             "number": "(760) 941-0220",
             "url": "https://www.target.com/",
             "title": "site",
-            "image": "",
+            "image": "images/target.webp",
             "membership": "Gold Membership",
             "stars": "4.2 / 5"
         },
@@ -46,7 +46,7 @@
             "number": "(760) 941-5990",
             "url": "https://www.homedepot.com/",
             "title": "site",
-            "image": "",
+            "image": "images/home-depot.webp",
             "membership": "Silver Membership",
             "stars": "4.2 / 5"
         },
@@ -56,7 +56,7 @@
             "number": "(760) 231-1431",
             "url": "https://www.acehardware.com/",
             "title": "site",
-            "image": "",
+            "image": "images/ace-hardware.webp",
             "membership": "Bronze Membership",
             "stars": "4.5 / 5"
         },
@@ -66,7 +66,7 @@
             "number": "1-800-345-7669",
             "url": "https://www.playstation.com/en-us/",
             "title": "site",
-            "image": "",
+            "image": "images/sony.webp",
             "membership": "Gold Membership",
             "stars": "4.7 / 5"
         }

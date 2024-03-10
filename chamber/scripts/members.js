@@ -10,7 +10,6 @@ async function getLinks() {
 };
 getLinks();
 
-
 function displayMembers(members) {
     members.forEach((member) => {
         let section = document.createElement("section");
@@ -26,8 +25,8 @@ function displayMembers(members) {
         image.setAttribute('src', member.image);
         image.setAttribute('alt', `image`); // fill in the blank
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '400');
-        image.setAttribute('height', '400');
+        image.setAttribute('width', '100');
+        image.setAttribute('height', '100');
         name.textContent = `${member.name}`;
         address.textContent = `${member.address}`;
         number.textContent = `${member.number}`;
@@ -36,6 +35,7 @@ function displayMembers(members) {
         membership.textContent = `${member.membership}`;
         stars.textContent = `${member.stars}`;
         
+        section.appendChild(image)
         section.appendChild(name);
         section.appendChild(address);
         section.appendChild(number);
