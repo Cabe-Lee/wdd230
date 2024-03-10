@@ -312,8 +312,16 @@ label, input {
 
 
 
-
-
+#members {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#members section {
+    background-color: #8ba6a9;
+    padding: 10px;
+    margin: 50px;
+}
 
 
 footer {
