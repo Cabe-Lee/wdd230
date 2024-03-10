@@ -4,8 +4,10 @@
             "name": "Famous footwear",
             "address": "1821 University Dr, Vista, CA 92083",
             "number": "(760) 305-6941",
-            "url": "https://www.famousfootwear.com/",
-            "title": "Shop",
+            "link": [{
+                "url": "https://www.famousfootwear.com/",
+                "title": "Shop"
+            }],
             "image": "chamber/images/famous-footwear.webp",
             "membership": "Silver Membership",
             "stars": "4.0 / 5"

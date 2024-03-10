@@ -10,46 +10,44 @@ async function getLinks() {
 };
 getLinks();
 
+let div = document.createElement("div");
+
+
+let title = "Bob is great."
+let url = "https://google.com"
+
+a.href = url;
+a.textContent = title;
+        
+div.appendChild(a);
+
 
 function displayMembers(members) {
     members.forEach((member) => {
         let section = document.createElement("section");
+        
         let name = document.createElement("p");
         let address = document.createElement("p");
         let number = document.createElement("p");
-        
-        let image = document.createElement("img");
+        let link = document.createElement("a");
         let membership = document.createElement("p");
         let stars = document.createElement("p");
 
         name.textContent = `${member.name}`;
-        // name.textContent = `${member.name}`;
         address.textContent = `${member.address}`;
         number.textContent = `${member.number}`;
-
-        image.textContent = member.image;
-        // image.
+        link.href = link.url;
+        link.textContent = link.text;
         membership.textContent = `${member.membership}`;
         stars.textContent = `${member.stars}`;
         
         section.appendChild(name);
         section.appendChild(address);
         section.appendChild(number);
-        section.appendChild(urls);
-        section.appendChild(image);
+        section.appendChild(link);
         section.appendChild(membership);
         section.appendChild(stars);
-
         card.appendChild(section);
-        members.forEach(member => {
-            const url = document.createElement("a");
-            
-            url.href = member.url;
-            url.textContent = member.title;
-
-            section.appendChild(url);
-            card.appendChild(section)
-        });
     });
 };
 
