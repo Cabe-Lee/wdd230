@@ -15,25 +15,31 @@ function displayMembers(members) {
     members.forEach((member) => {
         let section = document.createElement("section");
         
-        let name = document.createElement("p");
+        let image = document.createElement("img")
+        let name = document.createElement("h3");
         let address = document.createElement("p");
         let number = document.createElement("p");
-        let link = document.createElement("a");
+        let site = document.createElement("a");
         let membership = document.createElement("p");
         let stars = document.createElement("p");
 
+        image.setAttribute('src', member.image);
+        image.setAttribute('alt', `image`); // fill in the blank
+        image.setAttribute('loading', 'lazy');
+        image.setAttribute('width', '400');
+        image.setAttribute('height', '400');
         name.textContent = `${member.name}`;
         address.textContent = `${member.address}`;
         number.textContent = `${member.number}`;
-        link.href = link.url;
-        link.textContent = link.text;
+        site.href = member.url;
+        site.textContent = member.title;
         membership.textContent = `${member.membership}`;
         stars.textContent = `${member.stars}`;
         
         section.appendChild(name);
         section.appendChild(address);
         section.appendChild(number);
-        section.appendChild(link);
+        section.appendChild(site);
         section.appendChild(membership);
         section.appendChild(stars);
         card.appendChild(section);
