@@ -2,121 +2,67 @@
     "lessons": [
         {
             "lesson": "01",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson01/holygrail.html",
-                    "title":"Holy Grail"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson01/holygrail.html",
+            "title1":"Holy Grail"
         },
         {
             "lesson": "02",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson02/design-principles.html",
-                    "title":"Design Principles"
-                },
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson02/media-query.html",
-                    "title":"Media Queries"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson02/design-principles.html",
+            "title1":"Design Principles",
+            "url2":"https://cabe-lee.github.io/wdd230/lesson02/media-query.html",
+            "title2":"Media Queries"
         },
         {
             "lesson": "03",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson03/w03_comb.png",
-                    "title":"Combinators"
-                },
-                {
-                    "url":"https://codepen.io/Cabe-Lee/pen/xxBPbWN",
-                    "title":"Media Queries"
-                },
-                {
-                    "url":"https://codepen.io/Cabe-Lee/pen/XWGzJxO",
-                    "title":"Responsive Menu"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson03/w03_comb.png",
+            "title1":"Combinators",
+            "url2":"https://codepen.io/Cabe-Lee/pen/xxBPbWN",
+            "title2":"Media Queries",
+            "url3":"https://codepen.io/Cabe-Lee/pen/XWGzJxO",
+            "title3":"Responsive Menu"
         },
         {
             "lesson": "04",
-            "links": [
-                {
-                    "url":"https://codepen.io/Cabe-Lee/pen/vYPdpEz",
-                    "title":"CSS Pseudo-classes"
-                }
-            ]
+            "url1":"https://codepen.io/Cabe-Lee/pen/vYPdpEz",
+            "title1":"CSS Pseudo-classes"
         },
         {
             "lesson": "05",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson05/bom.html",
-                    "title":"bom fav chapters"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson05/bom.html",
+            "title1":"bom fav chapters"
         },
         {
             "lesson": "06",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson06/images/landscape.webp",
-                    "title":"WebP format"
-                },
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson06/responsive-images.html",
-                    "title":"Responsive Images"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson06/images/landscape.webp",
+            "title1":"WebP format",
+            "url2":"https://cabe-lee.github.io/wdd230/lesson06/responsive-images.html",
+            "title2":"Responsive Images"
         },
         {
             "lesson": "07",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson07/lazyload.html",
-                    "title":"Lazy Loading"
-                },
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson07/bom.html",
-                    "title":"bom fav chapters 2"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson07/lazyload.html",
+            "title1":"Lazy Loading",
+            "url2":"https://cabe-lee.github.io/wdd230/lesson07/bom.html",
+            "title2":"bom fav chapters 2"
         },
         {
             "lesson": "08",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson08/tablebuild.html",
-                    "title":"HTML Tables"
-                },
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson08/index.html",
-                    "title":"HTML Forms"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson08/tablebuild.html",
+            "title1":"HTML Tables",
+            "url2":"https://cabe-lee.github.io/wdd230/lesson08/index.html",
+            "title2":"HTML Forms"
         },
         {
             "lesson": "09",
-            "links": [
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson09/scripts/new-ward-members.json",
-                    "title":"J'a'SON"
-                },
-                {
-                    "url":"https://cabe-lee.github.io/wdd230/lesson09/prophets.html",
-                    "title":"Fetch-ing"
-                }
-            ]
+            "url1":"https://cabe-lee.github.io/wdd230/lesson09/scripts/new-ward-members.json",
+            "title1":"J'a'SON",
+            "url2":"https://cabe-lee.github.io/wdd230/lesson09/prophets.html",
+            "title2":"Fetch-ing"
         },
         {
             "lesson": "10",
-            "links": [
-                {
-                    "url":"",
-                    "title":""
-                }
-            ]
+            "url1":"https://Google.com",
+            "title1":"Google"
         }
     ]
 }
