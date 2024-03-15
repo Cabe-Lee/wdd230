@@ -40,6 +40,7 @@
                 </div>
             </div>
             <h2>WDD 230: Web Frontend Development</h2>
+            <div id="once"></div>
             <hr>
             <div class="cards_row">
                 <section class="cards activities">
@@ -50,7 +51,11 @@
                     <h3>Information</h3>
                     <ol>
                         <li> Vista, California</li>
-                        <li> Weather: 72 Sunny</li>
+                        <p>Current temperature: <span id="current-temp"></span></p>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
                         <li class="visit"></li>
                     </ol>
                 </section>
@@ -64,5 +69,6 @@
         <script rel="preload" src="scripts/hb_menu.js"></script>
         <script rel="preload" src="scripts/count.js"></script>
         <script rel="preload" src="scripts/links.js"></script>
+        <script rel="preload" src="scripts/weather.js"></script>
     </body>
 </html>
