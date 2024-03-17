@@ -19,7 +19,7 @@
         <meta property="og:image" content="https://www.sandiego.org/explore/things-to-do/beaches-bays/carlsbad.aspx" >
     </head>
     <body>
-        <div class="banner">
+        <div class="bannerTop">
             <header>
                 <img class="logo" src="images/logo.webp" alt="logo">
                 <section class="chamber">
@@ -34,12 +34,19 @@
                 <ul class="navigation">
                     <li><a href="https://cabe-lee.github.io/wdd230/chamber/index.html">Home</a></li>
                     <li><a href="https://cabe-lee.github.io/wdd230/chamber/discover.html">Discover</a></li>
-                    <li><a href="">Directory</a></li>
+                    <li><a href="https://cabe-lee.github.io/wdd230/chamber/directory.html">Directory</a></li>
                     <li><a href="https://cabe-lee.github.io/wdd230/chamber/join.html">Join</a></li>
                 </ul>
             </nav>
         </div>
         <main>
+            <div class="banner" id="meetGreetBanner">
+                <p>Join us for the Chamber of Commerce Meet and Greet!</p>
+                <p>Wednesday at 7:00 p.m.</p>
+                <p>Discover new connections, network with local businesses, and learn about exciting opportunities.</p>
+                <p><a href="http://www.cottonwoodchamberofcommerce.com/meet-and-greets">Learn More</a></p>
+                <span class="close-button" onclick="closeBanner()">❌</span>
+            </div>
             <section class="hero_card">
                 <picture>
                     <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
@@ -59,15 +66,23 @@
                     </section>
                     <section class="weather">
                         <h2>Weather</h2>
-                        <p class="w_icon">🌤️</p>
+                        <button onclick="displayForecast()">Show Forecast</button>
+                        <div class="weather-card" id="forecastCard" style="display: none;">
+                            <span class="close-button" onclick="closeForecast()">❌</span>
+                            <h2>3-Day Weather Forecast</h2>
+                            <div id="forecastContent"></div>
+                        </div>
+                        <div class="w_icon">
+                            <figure>
+                                <img id="weather-icon" src="" alt="">
+                                <figcaption></figcaption>
+                            </figure></div>
                         <div class="w_content">
-                            <p>Humidity:</p>
-                            <p class="line">______</p>
-                            <p id="temperature"></p>
+                            <p>Current temp: <span id="current-temp"></span></p>
                         </div>
                         <div class="w_stats">
                             <p>Wind Chill:</p>
-                            <p class="line">_____</p>
+                            <p class="line">__</p>
                             <p id="windChill"></p>
                         </div>
                     </section>
@@ -127,5 +142,7 @@
         <script src="scripts/getdate.js"></script>
         <script src="scripts/darkmode.js"></script>
         <script src="scripts/windchill.js"></script>
+        <script src="scripts/forecastButton.js"></script>
+        <script src="scripts/displayBanner.js"></script>
     </body>
 </html>

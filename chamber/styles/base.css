@@ -11,7 +11,7 @@
 #menu::before {
     content: "≡";
 }
-.banner {
+.bannerTop {
     display:flex;
     align-items:center;
     background-color:#f4ebbe;
@@ -202,7 +202,6 @@ h3 {
     width: 30%;
 }
 .w_icon {
-    font-size: 250%;
     position: relative;
     left: 20%;
 }
@@ -213,6 +212,33 @@ h3 {
 }
 .line {
     color: #3b589800;
+}
+
+
+
+.weather-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #a7cecb;
+    position: relative;
+}
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #75704e;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
 }
 
 
