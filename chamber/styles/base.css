@@ -188,11 +188,15 @@ h3 {
 .event {
     background-color: #8ba6a9;
     width: 60%;
+    padding-bottom: 10px;
 }
 .event a {
     background-color: #75704e;
-    padding: 1px;
+    width: auto;
+    padding: 5px;
     border-radius: 3px;
+    margin-left: 40%;
+    margin-right: 30%;
 }
 
 
@@ -219,12 +223,13 @@ h3 {
 .weather-card {
     border: 1px solid #ccc;
     padding: 20px;
-    width: 300px;
+    width: 150px;
     background-color: #a7cecb;
     position: absolute;
+    z-index: 1;
 }
 .banner {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 99%;
