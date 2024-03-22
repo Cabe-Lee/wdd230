@@ -6,7 +6,7 @@
     padding: .5rem .75rem;
     background-color: #eee;
     border: 2px solid black;
-    border-radius: 6px;
+    border-radius: 1cap;
 }
 #menu::before {
     content: "≡";
@@ -27,7 +27,6 @@
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
-    color: #75704e;
     font-weight: 700;
 	transition: 0.5s;
     font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -56,13 +55,7 @@ header {
 ul {
     padding:0px;
 }
-nav {
-    color: #75704e;
-}
 nav a {
-    color: black;
-}
-nav a:visited {
     color: black;
 }
 a:active {
@@ -70,11 +63,8 @@ a:active {
     background-color: #75704e;
 }
 a:hover {
-    color: #f4ebbe;
-    background-color: #8ba6a9;
-}
-a:visited {
-    color: white;
+    color: #75704e;
+    background-color: #f4ebbe;
 }
 header .fa {
     padding: 10px;
@@ -95,7 +85,7 @@ header .fa {
 }
 .fa-twitter {
     background: #55ACEE;
-    color: white;
+    color: black;
 }
 button {
     cursor: pointer;
@@ -342,7 +332,22 @@ label, input {
 }
 
 
-
+#menu-buttons {
+    background-color: #55ACEE;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#grid, #list {
+    color: #eee;
+    background-color: #3B5998;
+    border-radius: 1cap;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 28px;
+    margin-top: 12px;
+}
 .members {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -359,11 +364,12 @@ label, input {
     margin-top: 10px;
 }
 .members a {
-    display: grid;
+    display: block;
     color: white;
     background-color: #75704e;
     padding: 5px;
-    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: .6cap;
 }
 .members a:hover {
     color:#75704e;
@@ -397,6 +403,53 @@ label, input {
 
 
 
+.sidebar {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    display: block;
+    margin-top: 5%;
+    padding-top: 10%;
+    padding: 1px;
+    margin-bottom: 20%;
+    border: 1px solid black;
+    background-color: #8ba6a9;
+    width: 275px;
+    height: 300px;
+    text-align: center;
+}
+.right-sidetab {
+    border: 2px solid grey;
+    width: 300px;
+    display: block;
+    margin-top: 1%;
+}
+.link-buttons {
+    color: white;
+    background-color: #75704e;
+    border-radius: 1cap;
+    padding: 10px;
+    /* fix the spacing */
+}
+
+
+
+#time {
+    border: 2px solid;
+    color: white;
+    background-color: #3B5998;
+    padding-top: 20px;
+    text-align: center;
+    width: 800px;
+    height: 45px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 footer {
     background-color: #f4ebbe;
 }
@@ -413,7 +466,7 @@ footer {
 }
 .logo_text {
     padding-top: .01%;
-    float:left;
+    float: left;
     display: block;
     line-height: 0.8;
     padding-left: 5px;

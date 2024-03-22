@@ -1,4 +1,7 @@
 @media (min-width: 760px) {
+    h1 {
+        font-size: 1%;
+    }
     .navigation {
         display: flex;
     }
