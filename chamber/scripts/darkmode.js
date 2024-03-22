@@ -2,7 +2,7 @@ function myFunction() {
     var element = document.body;
     var header = document.querySelector("header");
     var nav = document.querySelector(".navigation");
-    var banner = document.querySelector(".banner");
+    var bannerTop = document.querySelector(".bannerTop");
     
     var hero = document.querySelector(".hero_card");
     var event = document.querySelector(".event");
@@ -18,7 +18,7 @@ function myFunction() {
     element.classList.toggle("dark-mode");
     header.classList.toggle("gray-dark-mode");
     nav.classList.toggle("gray-dark-mode");
-    banner.classList.toggle("gray-dark-mode");
+    bannerTop.classList.toggle("gray-dark-mode");
     
     hero.classList.toggle("dark-mode-hero");
     event.classList.toggle("dark-mode-cards");

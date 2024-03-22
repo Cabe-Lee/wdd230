@@ -344,29 +344,31 @@ label, input {
 
 
 #members {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    width: 500px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
 }
 #members section {
     background-color: #8ba6a9;
-    padding: 10px;
-    margin: 50px;
+    margin: 5px;
+    text-align: center;
 }
 #members img {
     width: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 20px;
 }
 #members a {
-    color: #f4ebbe;
-    background-color: #3B5998;
+    display: grid;
+    color: white;
+    background-color: #75704e;
     padding: 5px;
     border-radius: 5px;
 }
 #members a:hover {
     color:#75704e;
-    background-color: #55ACEE;
+    background-color: white;
 }
 #members a:active {
     color: #55ACEE;

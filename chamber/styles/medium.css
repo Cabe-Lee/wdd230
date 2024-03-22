@@ -16,6 +16,9 @@
     .navigation {
         background-color: #fff;
     }
+
+
+
     .hero_card img {
         width: 300px;
     }
@@ -23,6 +26,9 @@
         top: 40%;
         left: 50%;
     }
+
+
+
     .cards {
         display: block;
     }
@@ -39,6 +45,20 @@
     .spot_card {
         width: auto;
     }
+
+
+
+    .sidebar {
+        display: block;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    #time {
+        width: auto;
+    }
+
+
+
     .logo_info {
         left: 0%;
     }

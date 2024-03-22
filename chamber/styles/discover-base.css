@@ -11,7 +11,7 @@
 #menu::before {
     content: "≡";
 }
-.banner {
+.bannerTop {
     display:flex;
     align-items:center;
     background-color:#f4ebbe;

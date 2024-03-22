@@ -10,6 +10,28 @@
     }
     
 
+    
+    .hover:hover {
+        box-shadow: 0 0 50px #333;
+    }
+    .rocorn:hover {
+        border-radius: 15px 150px;
+    }
+    .opac:hover {
+        opacity: .5;
+    }
+    .object:hover {
+        width: 100%; height: 75px ; object-fit: cover;
+    }
+    .contrast:hover {
+        filter: contrast(50%);
+    }
+    .transform:hover {
+        transform: scaleX(-1)
+    }
+
+
+
     .logo_info {
         left: 10%;
     }

@@ -7,6 +7,7 @@ async function getLinks() {
     const data = await response.json();
     console.log(data.members);
     displayMembers(data.members);
+    displayMemberHome(data.members);
 };
 getLinks();
 
@@ -14,7 +15,7 @@ function displayMembers(members) {
     members.forEach((member) => {
         let section = document.createElement("section");
         
-        let image = document.createElement("img")
+        let image = document.createElement("img");
         let address = document.createElement("p");
         let number = document.createElement("p");
         let site = document.createElement("a");
@@ -28,7 +29,7 @@ function displayMembers(members) {
         site.href = member.url;
         site.textContent = member.title;
         
-        section.appendChild(image)
+        section.appendChild(image);
         section.appendChild(address);
         section.appendChild(number);
         section.appendChild(site);
@@ -38,3 +39,28 @@ function displayMembers(members) {
 
 
 
+let memberCard1 = document.querySelector("#memberCard1");
+let title1 = document.querySelector("#title1");
+let logo1 = document.querySelector("#logo1");
+let membership1 = document.querySelector("#membership1");
+
+let memberCard2 = document.querySelector("#memberCard2");
+let title2 = document.querySelector("#title2");
+let logo2 = document.querySelector("#logo2");
+let membership2 = document.querySelector("#membership2");
+
+let memberCard3 = document.querySelector("#memberCard3");
+let title3 = document.querySelector("#title3");
+let logo3 = document.querySelector("#logo3");
+let membership3 = document.querySelector("#membership3");
+
+
+
+
+
+
+
+function displayMemberHome(members) {
+    title1.textContent = members[0].name;
+
+}
