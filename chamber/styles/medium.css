@@ -29,6 +29,14 @@
 
 
 
+    #members {
+        grid-template-columns: auto;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
+
     .cards {
         display: block;
     }

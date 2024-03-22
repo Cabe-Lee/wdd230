@@ -343,36 +343,56 @@ label, input {
 
 
 
-#members {
-    display: flex;
-    width: 500px;
+.members {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
 }
-#members section {
+.members section {
     background-color: #8ba6a9;
     margin: 5px;
     text-align: center;
 }
-#members img {
+.members img {
     width: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
-#members a {
+.members a {
     display: grid;
     color: white;
     background-color: #75704e;
     padding: 5px;
     border-radius: 5px;
 }
-#members a:hover {
+.members a:hover {
     color:#75704e;
     background-color: white;
 }
-#members a:active {
+.members a:active {
     color: #55ACEE;
     background-color: #75704e;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+    max-width: 500px;
+	margin: 0;
+	padding: 0.25rem;
+}
+.list section > * {
+	margin: 0 1rem;
+}
+.list section img {
+	display: none;
+}
+.list section:nth-child(even) {
+	background-color: #bed;
 }
 
 
