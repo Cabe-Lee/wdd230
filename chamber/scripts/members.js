@@ -7,7 +7,6 @@ async function getLinks() {
     const data = await response.json();
     console.log(data.members);
     displayMembers(data.members);
-    // displayMemberHome(data.members);
 };
 getLinks();
 
@@ -36,31 +35,3 @@ function displayMembers(members) {
         card.appendChild(section);
     });
 };
-
-
-
-let memberCard1 = document.querySelector("#memberCard1");
-let logo1 = document.querySelector("#logo1");
-let title1 = document.querySelector("#title1");
-let membership1 = document.querySelector("#membership1");
-
-let memberCard2 = document.querySelector("#memberCard2");
-let logo2 = document.querySelector("#logo2");
-let title2 = document.querySelector("#title2");
-let membership2 = document.querySelector("#membership2");
-
-let memberCard3 = document.querySelector("#memberCard3");
-let title3 = document.querySelector("#title3");
-let logo3 = document.querySelector("#logo3");
-let membership3 = document.querySelector("#membership3");
-
-
-
-
-
-
-
-// function displayMemberHome(members) {
-//     title1.textContent = members[0].name;
-
-// }

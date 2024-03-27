@@ -419,6 +419,12 @@ label, input {
     height: 300px;
     text-align: center;
 }
+.card img {
+    margin-bottom: 15px;
+}
+.card p {
+    margin-bottom: 20px;
+}
 .right-sidetab {
     border: 2px solid grey;
     width: 300px;
