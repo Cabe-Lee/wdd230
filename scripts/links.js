@@ -6,7 +6,7 @@ const card = document.querySelector('#learningActivities');
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    // console.log(data);
+    console.log(data);
     displayWeek(data.lessons);
 };
 getLinks();
@@ -23,15 +23,35 @@ getLinks();
 
 function displayWeek(lessons) {
     lessons.forEach((week) => {
+
         let p = document.createElement("p");
-        p.textContent = `${week.lesson}:`;
-        
+        p.textContent = week.lesson;
+
+        console.log(week);
+
         let a = document.createElement("a");
-        let weeks = week.links[0];
-        a.href = weeks.url;
-        a.textContent = weeks.title;
-        
-        card.appendChild(p);
-        card.appendChild(a);
+
+        week.links.forEach((list, index) => {
+            console.log(list);
+
+        })
+            
+        //     a.href = list.url
+        //     a.textContent = list.title;
+
+        //     if (index > 0) {
+        //         let separator = document.createElement('span');
+
+        //         separator.textContent = ' | ';
+        //         separator.appendChild(a);
+        //         weekLesson.appendChild(separator);
+
+        //     }  else {
+        //         weekLesson.appendChild(a);
+        //     }
+
+        //     card.appendChild(p);
+        //     card.appendChild(a);
+        // });
     });
 };
