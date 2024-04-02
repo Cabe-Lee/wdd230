@@ -1,0 +1,64 @@
+/* Header & Footer*/
+header, footer {
+    display: flex;
+    background-color: lightblue;
+    text-align: center;
+}
+header img, footer img {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+header h1, footer h2 {
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+}
+nav {
+    margin-top: 50px;
+}
+nav a {
+    font-size: 30px;
+    color: white;
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+nav:visited {
+    color: white;
+}
+footer {
+    background-color: lightblue;
+}
+footer p {
+    
+}
+#top-tab {
+
+}
+#menu {
+
+}
+
+
+main {
+    width: 500px;
+    margin: 0 auto;
+}
+.hero button {
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#types { 
+    
+}
