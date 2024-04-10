@@ -15,25 +15,19 @@
 </head>
 <body>
     <header>
-        <div id="top-tab">
-            <img src="images/scoots-icon.jpg" alt="scoots-logo">
-            <h1>Scoots</h1>
-        </div>
-        <nav>
-            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/index.html">Home</a>
-            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/rentals.html">Rentals</a>
-            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/reserve.html">Reservations</a>
-            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/contact.html">Contact</a>
+        <img src="images/scoots-icon.webp" loading="lazy" alt="scoots-logo">
+        <button class="menu"></button>
+        <nav class="navigation">
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/index.html" target="_blank">Home</a>
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/rentals.html" target="_blank">Rentals</a>
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/reserve.html" target="_blank">Reservations</a>
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/contact.html" target="_blank">Contact</a>
         </nav>
     </header>
     <main>
-        <div class="col1"></div>
-        <div id="temp-max">
-            <p></p>
-        </div>
         <div class="hero">
-            <button id="rental-button" src="">Rent</button>
-            <img src="images/scoots-hero.jpg" alt="scoots-hero">
+            <button id="rental-button" src="">Make Reservations</button>
+            <img src="images/scoots-hero.webp" loading="lazy" alt="scoots-hero">
         </div>
         <div id="types">
             <h4>Honda Motor Scooters</h4>
@@ -52,61 +46,24 @@
                 <li>Jeep Wrangler - 2 door - open air - manuel - 4 person</li>
             </ul>
         </div>
-        <div id="services">
-            <h4>Rental Services and Agreements</h4>
-                <ul>
-                    <li>A $50 security deposit is required to confirm reservations.</li>
-                    <li>A valid drivers license is required in hand at the time of rental.</li>
-                    <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
-                    <li>Fuel charge is not included.</li>
-                    <li>Unlimited mileage.</li>
-                    <li>Liability insurance is included.</li>
-                    <li>Damage insurance is available for purchase.</li>
-                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
-                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
-                    <li>Rentals may be returned to either physical location.</li>
-                </ul>
-            <table>
-                <caption>Max Rental Pricing</caption>
-                <thead>
-                    <tr>
-                        <th scope="col" id="blank"></th>
-                        <th scope="col">Reservations</th>
-                        <th scope="col">Walk-In</th>
-                    </tr>
-                    <tr>
-                        <th scope="col">Rental Type</th>
-                        <th scope="col">Max. Persons</th>
-                        <th scope="col">Half Day (3 hrs)</th>
-                        <th scope="col">Full Day</th>
-                        <th scope="col">Half Day (3 hrs)</th>
-                        <th scope="col">Full Day</th>
-                    </tr>
-                </thead>
-                <tbody class="tbody">
-                    
-                </tbody>
-            </table>
-        </div>
         <div id="weather">
+            <h4>Weather</h4>
+            <img id="weatherIcon" src="" alt="">
             <p id="temp"></p>
             <p id="humid"></p>
-            <p id="next-day-forcast"></p>
             <p id="description"></p>
-            <p id="weather-icon"></p>
         </div>
-        <div class="col2"></div>
     </main>
     <footer>
-        <div>
-            <img src="images/scoots-icon.jpg" alt="scoots-logo">
-            <h2>Scoots</h2>
-            <div id="contacts">
-                <p>Cabe Lee</p>
-                <p></p>
-            </div>
+        <img src="images/scoots-icon.webp" loading="lazy" alt="scoots-logo">
+        <div class="contacts">
+            <p>Gabrial Lopez</p>
+            <p>GabrialLopez12@gmail.com</p>
+            <p>(999) - 999 - 9999</p>
+            <p>123 st building 1, Cozumel, Mexico</p>
         </div>
     </footer>
 </body>
-<script rel="preload" src="scripts/rental-data.js"></script>
+<script rel="preload" src="scripts/hb_menu.js"></script>
+<script rel="preload" src="scripts/weather.js"></script>
 </html>

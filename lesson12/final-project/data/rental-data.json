@@ -1,51 +1,51 @@
 {
-    "data": [
+    "rentals": [
     {
         "name": "~Honda Metro Scooter",
         "max": 1,
         "halfRes": "$20",
         "fullRes": "$30",
-        "halfWalk-In": "$25",
-        "fullWalk-In": "$35"
+        "halfWalkIn": "$25",
+        "fullWalkIn": "$35"
     },
     {
         "name": "~Honda Dio Scooter",
         "max": 2,
         "halfRes": "$30",
         "fullRes": "$40",
-        "halfWalk-In": "$35",
-        "fullWalk-In": "$45"
+        "halfWalkIn": "$35",
+        "fullWalkIn": "$45"
     },
     {
         "name": "~Honda PCX150 Scooter",
         "max": 2,
         "halfRes": "$40",
         "fullRes": "$50",
-        "halfWalk-In": "$45",
-        "fullWalk-In": "$55"
-    },
+        "halfWalkIn": "$45",
+        "fullWalkIn": "$55"
+    }, 
     {
         "name": "Honda Pioneer ATV",
         "max": 4,
         "halfRes": "$50",
         "fullRes": "$70",
-        "halfWalk-In": "$60",
-        "fullWalk-In": "$80"
+        "halfWalkIn": "$60",
+        "fullWalkIn": "$80"
     },
     {
         "name": "Jeep Wrangler - 4 door with a/c",
         "max": 5,
         "halfRes": "$70",
         "fullRes": "$100",
-        "halfWalk-In": "$85",
-        "fullWalk-In": "$125"
+        "halfWalkIn": "$85",
+        "fullWalkIn": "$125"
     },
     {
         "name": "Jeep Wrangler - 2 door",
         "max": 4,
         "halfRes": "$60",
         "fullRes": "$85",
-        "halfWalk-In": "$70",
-        "fullWalk-In": "$90"
+        "halfWalkIn": "$70",
+        "fullWalkIn": "$90"
     }]
 }

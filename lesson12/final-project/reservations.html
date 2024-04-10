@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛵Scoots - Reservations</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta name="description"
+        content="WDD 230 - Scoots, motor scooter rental company in Cozumel, West Caribbean, fiction">
+    <meta property="og:title" content="Scoots">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cabe-lee.github.io/wdd230/lesson12/index.html">
+    <meta property="og:image" content="https://https://www.skootrhtx.com/">
+    <link href="styles/base.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/scoots-icon.webp" loading="lazy" alt="scoots-logo">
+        <button class="menu"></button>
+        <nav class="navigation">
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/index.html" target="_blank">Home</a>
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/rentals.html" target="_blank">Rentals</a>
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/reserve.html" target="_blank">Reservations</a>
+            <a href="https://cabe-lee.github.io/wdd230/lesson12/final-project/contact.html" target="_blank">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h4>Rental Services and Agreements</h4>
+        <ul>
+            <li>A $50 security deposit is required to confirm reservations.</li>
+            <li>A valid drivers license is required in hand at the time of rental.</li>
+            <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+            <li>Fuel charge is not included.</li>
+            <li>Unlimited mileage.</li>
+            <li>Liability insurance is included.</li>
+            <li>Damage insurance is available for purchase.</li>
+            <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+            <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+            <li>Rentals may be returned to either physical location.</li>
+        </ul>
+        <form method="get" action="thank-you.html" class="wf1">
+            <fieldset>
+                <legend>Reservations</legend><br>
+                <label for="date">Date*:</label><br>
+                <input class="date" type="date" name="date" required><br><br>
+                
+                <label for="period">Period*:</label><br>
+                <input class="period" type="tel" name="period" placeholder="What time?" required><br><br>
+                
+            
+                <label for="rental_type">Rental Type*: (See the Home page for more info)</label><br>
+                <select name="rental_type" class="select">
+                        <option value="please_select">Please Select</option>
+                    <option value="Honda Metropolitan (49cc) - 1 person" required>Honda Metropolitan (49cc) - 1 person</option>
+                    <option value="Honda Dio (110cc) - 2 person" required>Honda Dio (110cc) - 2 person</option>
+                    <option value="Honda PCX150 (149cc) - 2 person" required>Honda PCX150 (149cc) - 2 person</option>
+                    <option value="Honda Pioneer 1000 - 4 person" required>Honda Pioneer 1000 - 4 person</option>
+                    <option value="Jeep Wrangler - 4 door manuel with A/C - 5 person" required>Jeep Wrangler - 4 door manuel with A/C - 5 person</option>
+                    <option value="Jeep Wrangler - 2 door - open air - manuel - 4 person" required>Jeep Wrangler - 2 door - open air - manuel - 4 person</option>
+                </select><br><br>
+
+                <label for="number">How many?*:</label><br>
+                <input class="number" type="number" name="author" placeholder="1 to 5 people" required><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="phone_number">Phone Number*:</label><br>
+                <input class="phone_number" type="tel" name="phone_number" placeholder="(123)-456-7890" required><br><br>
+                
+                <label for="name">Name*:</label><br>
+                <input class="name" type="text" name="name" placeholder="John Doe" required><br><br>
+
+                <label for="email">Email*:</label><br>
+                <input class="email" type="email" name="email" placeholder="JohnDoe@gmail.com" required><br><br>
+
+                <label for="home_state">Home State:</label><br>
+                <input class="home_state" type="text" name="home_state" placeholder="CA"><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pick Up</legend>
+                <label for="cruise-line">Cruise Line:</label><br>
+                <input class="cruise-line" type="text" name="cruise-line" placeholder="Coast port"><br><br>
+
+                <label for="accommodations">Accommodations:</label><br>
+                <input class="accommodations" type="text" name="accommodations" placeholder="Comments"><br><br>
+
+                <label for="drop_off">Drop Off*:</label><br>
+                <input class="drop_off" type="text" name="drop_off" placeholder="Address" required><br><br><br>
+                <input class="submit" type="submit" name="submit" value="Reserve">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <img src="images/scoots-icon.webp" loading="lazy" alt="scoots-logo">
+        <div class="contacts">
+            <p>Gabrial Lopez</p>
+            <p>GabrialLopez12@gmail.com</p>
+            <p>(999) - 999 - 9999</p>
+            <p>123 st building 1, Cozumel, Mexico</p>
+        </div>
+    </footer>
+</body>
+<script rel="preload" src="scripts/hb_menu.js"></script>
+<script rel="preload" src="scripts/weather.js"></script>
+</html>

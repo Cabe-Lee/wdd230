@@ -32,4 +32,4 @@ function displayWeek(lessons) {
   });
   
   card.appendChild(ul);
-}
+} 
