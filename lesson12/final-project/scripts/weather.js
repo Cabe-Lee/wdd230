@@ -4,7 +4,7 @@ const apiKey = "appid=88d936f317287eee62e27fd9b0035641";
 
 const currentTemp = document.querySelector("#temp");
 const humid = document.querySelector("#humid");
-const next = document.querySelector("#next-day-forcast");
+const next = document.querySelector("#next");
 const clouds = document.querySelector("#clouds")
 const captionDesc = document.querySelector("#description");
 const weatherIcon = document.querySelector("#weatherIcon");
@@ -16,8 +16,8 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayResults(data);
+            popUp(data)
         } else {
             throw Error (await response.text());
         }
@@ -31,7 +31,6 @@ apiFetch();
 
 
 function displayResults(data) {
-
     currentTemp.innerHTML = `Temperature: ${data.main.temp}&deg;F`;
 
     humid.innerHTML = `Humidity: ${data.main.humidity}&deg;F`;
@@ -42,4 +41,11 @@ function displayResults(data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", "Tier Temp here:");
+
+    const nextDayForcast = data.main.feels_like
+    next.innerHTML = `Next Day Forecast: ${nextDayForcast}&deg;F`
+}
+
+function popUp(data) {
+    alert("Max Temperature: " + data.main.temp_max + "°F");
 }
